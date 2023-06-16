@@ -1,0 +1,39 @@
+.addCommentContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.commentContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0.1rem;
+  border: 0.1rem solid white;
+  border-radius: 0.5rem;
+  padding: 0 0.5rem;
+  width: 98%;
+}
+.commentContainer:hover {
+  background-color: #98c1d9;
+  color: white;
+}
+
+.profileContainer {
+  display: flex;
+  align-items: center;
+}
+
+.replyEditbtnContainer {
+  display: flex;
+  gap: 1rem;
+}
+
+.addChildCommentContainer {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem;
+}
